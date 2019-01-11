@@ -9,16 +9,14 @@
     <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Montserrat|Indie+Flower|Open+Sans+Condensed:300|Rubik:300|Shadows+Into+Light"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
-    
+
     <title>Portfolio</title>
 </head>
 
@@ -37,25 +35,26 @@
             <br>
             <div class="row">
                 <div class="col s6 center-align">
-                    <a class="btn-floating pulse z-depth-5 center-align" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="material-icons">About</i></a>
+                    <a class="btn-floating pulse z-depth-5 center-align" id="about-btn"><i class="material-icons">About</i></a>
                     <br>
                     <br>
-                    <a class="collapse multi-collapse" id="multiCollapseExample1">
-                        <p class="text">A musician at heart, my love for electronic music and electronics in general has brought me to
-                        the precipice of Software Development.<br>
-                        Information seeking, dedicated, eager to learn, a fewthings that define Josh Jenkin
-                        I am here to improve; myself, your business, your products. With a firm grasp on Front End
-                        Development, I would be an asset to any company. With my extensive customer service
-                        knowledge, my skills easily translate to create the best UI imaginable.<br>
-                        Click the links to find out more about the work I've done and more about me!</p>
+                    <a id="about">
+                        <p class="text">A musician at heart, my love for electronic music and electronics in general
+                            has brought me to
+                            the precipice of Software Development.<br>
+                            Information seeking, dedicated, eager to learn, just a few things that define Josh Jenkin
+                            I am here to improve; myself, your business, your products. With a firm grasp on Front End
+                            Development, I would be an asset to any company. With my extensive customer service
+                            knowledge, my skills easily translate to create the best UI imaginable.<br>
+                            Click the links to find out more about the work I've done and more about me!</p>
                     </a>
 
                 </div>
                 <div class="col s6 center-align">
-                    <a class="btn-floating pulse z-depth-5" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"><i class="material-icons">Contact</i></a>
+                    <a class="btn-floating pulse z-depth-5" id="about-btn-2"><i class="material-icons">Contact</i></a>
                     <br>
                     <br>
-                    <a class="collapse multi-collapse" id="multiCollapseExample2">
+                    <a id="about-2">
                         <ul class="text">
                             <li>Phone: 435-851-1969</li><br>
                             <li href="https://www.linkedin.com/in/josh-jenkin-7065a993/">LinkedIn</li><br>
@@ -63,19 +62,19 @@
                         </ul>
                         <br>
                         <form class="form-group" action="mailto:josh.jenkin@live.com" method="post" enctype="text/plain">
-                            
+
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                                 <input id="name" type="text" class="form-control" name="name" placeholder="Name">
                             </div>
                             <br>
-                            
+
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
                                 <input id="email" type="email" class="form-control" name="email" placeholder="Email">
                             </div>
                             <br>
-                            
+
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-comment"></i></span>
                                 <textarea id="msg" type="text" class="form-control" name="msg" placeholder="Message"
@@ -88,7 +87,7 @@
                             <button class="btn btn-dark btn-lg" type="submit" value="Submit">Submit</button><br><br>
                             <button class="btn btn-dark btn-lg" type="reset" value="Reset">Reset</button>
                         </form>
-                        
+
                     </a>
 
                 </div>
@@ -97,22 +96,28 @@
         <br>
         <br>
     </header>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h1 class="center-align name grey-text">Portfolio</h1>
+    </div>
     <section class="container">       
         <div class="carousel">
-            <a class="carousel-item" href="#one!" style="z-index: -1; opacity: 0.6; visibility: visible; transform: translateX(149.5px) translateY(100px) translateX(200px) translateZ(-200px);">
-              <img src="assets/images/hair2.png">Brows for the Soul
+            <a class="carousel-item" href="https://abramwingle.github.io/JAC-Project-1/" target="_blank" style="z-index: -1; opacity: 0.6; visibility: visible; transform: translateX(149.5px) translateY(100px) translateX(200px) translateZ(-200px);">
+              <img src="assets/images/hair2.png"><h3 class="center-align">Brows for the Soul</h3>
             </a>
-            <a class="carousel-item" href="#two!" style="transform: translateX(149.5px) translateY(100px) translateX(400px) translateZ(-400px); z-index: -2; opacity: 0.2; visibility: visible;">
-              <img src="assets/images/giftastic.gif">Giftastic
+            <a class="carousel-item" href="https://jjenks713.github.io/giphy/" target="_blank" style="transform: translateX(149.5px) translateY(100px) translateX(400px) translateZ(-400px); z-index: -2; opacity: 0.2; visibility: visible;">
+              <img src="assets/images/giftastic.gif"><h3 class="center-align">Giftastic</h3>
             </a>
-            <a class="carousel-item" href="#three!" style="transform: translateX(149.5px) translateY(100px) translateX(-400px) translateZ(-400px); z-index: -2; opacity: 0.2; visibility: visible;">
-              <img src="assets/images/trains.jpg">Train Scheduler
+            <a class="carousel-item" href="https://jjenks713.github.io/trains/" target="_blank" style="transform: translateX(149.5px) translateY(100px) translateX(-400px) translateZ(-400px); z-index: -2; opacity: 0.2; visibility: visible;">
+              <img src="assets/images/trains.jpg"><h3 class="center-align">Train Scheduler</h3>
             </a>
-            <a class="carousel-item" href="#four!" style="transform: translateX(149.5px) translateY(100px) translateX(-200px) translateZ(-200px); z-index: -1; opacity: 0.6; visibility: visible;">
-              <img src="assets/images/movie.png">Movie Trivia
+            <a class="carousel-item" href="https://jjenks713.github.io/trivia-game/" target="_blank" style="transform: translateX(149.5px) translateY(100px) translateX(-200px) translateZ(-200px); z-index: -1; opacity: 0.6; visibility: visible;">
+              <img src="assets/images/movie.png"><h3 class="center-align">Movie Trivia</h3>
             </a>
-            <a class="carousel-item active" href="#five!" style="transform: translateX(149.5px) translateY(100px) translateX(0px) translateX(0px) translateZ(0px); z-index: 0; opacity: 1; visibility: visible;">
-              <img src="assets/images/crystals.png">Crystal Collector
+            <a class="carousel-item active" href="https://jjenks713.github.io/crystal-collector/" target="_blank" style="transform: translateX(149.5px) translateY(100px) translateX(0px) translateX(0px) translateZ(0px); z-index: 0; opacity: 1; visibility: visible;">
+              <img src="assets/images/crystals.png"><h3 class="center-align">Crystal Collector</h3>
             </a>
           </div>
               
@@ -150,16 +155,11 @@
     </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>
