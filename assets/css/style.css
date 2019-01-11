@@ -26,4 +26,7 @@ header {
 }
 .text {
     font-size: 20px;
+    background: rgba(141, 197, 197, 0.089);
+    padding: 25px;
+    border-radius: 12px;
 }

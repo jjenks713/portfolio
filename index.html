@@ -12,9 +12,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+    
     <title>Portfolio</title>
 </head>
 
@@ -38,11 +42,11 @@
                     <br>
                     <a class="collapse multi-collapse" id="multiCollapseExample1">
                         <p class="text">A musician at heart, my love for electronic music and electronics in general has brought me to
-                        the precipice of Software Development. Information seeking, dedicated, eager to learn, a few
-                        things that define Josh Jenkin
+                        the precipice of Software Development.<br>
+                        Information seeking, dedicated, eager to learn, a fewthings that define Josh Jenkin
                         I am here to improve; myself, your business, your products. With a firm grasp on Front End
                         Development, I would be an asset to any company. With my extensive customer service
-                        knowledge, my skills easily translate to create the best UI imaginable.
+                        knowledge, my skills easily translate to create the best UI imaginable.<br>
                         Click the links to find out more about the work I've done and more about me!</p>
                     </a>
 
@@ -53,11 +57,37 @@
                     <br>
                     <a class="collapse multi-collapse" id="multiCollapseExample2">
                         <ul class="text">
-                            <li>Phone: 435-851-1969</li>
-                            <li>Email: josh.jenkin@live.com</li>
-                            <li>LinkedIn:</li>
-                            <li>GitHub:</li>
+                            <li>Phone: 435-851-1969</li><br>
+                            <li href="https://www.linkedin.com/in/josh-jenkin-7065a993/">LinkedIn</li><br>
+                            <li href="https://github.com/jjenks713">GitHub</li>
                         </ul>
+                        <br>
+                        <form class="form-group" action="mailto:josh.jenkin@live.com" method="post" enctype="text/plain">
+                            
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <input id="name" type="text" class="form-control" name="name" placeholder="Name">
+                            </div>
+                            <br>
+                            
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                <input id="email" type="email" class="form-control" name="email" placeholder="Email">
+                            </div>
+                            <br>
+                            
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-comment"></i></span>
+                                <textarea id="msg" type="text" class="form-control" name="msg" placeholder="Message"
+                                    rows="5"></textarea>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <button class="btn btn-dark btn-lg" type="submit" value="Submit">Submit</button><br><br>
+                            <button class="btn btn-dark btn-lg" type="reset" value="Reset">Reset</button>
+                        </form>
                         
                     </a>
 
@@ -67,14 +97,25 @@
         <br>
         <br>
     </header>
-    <section class="container">
+    <section class="container">       
         <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
-            <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
-            <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
-            <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
-            <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
-        </div>
+            <a class="carousel-item" href="#one!" style="z-index: -1; opacity: 0.6; visibility: visible; transform: translateX(149.5px) translateY(100px) translateX(200px) translateZ(-200px);">
+              <img src="assets/images/hair2.png">Brows for the Soul
+            </a>
+            <a class="carousel-item" href="#two!" style="transform: translateX(149.5px) translateY(100px) translateX(400px) translateZ(-400px); z-index: -2; opacity: 0.2; visibility: visible;">
+              <img src="assets/images/giftastic.gif">Giftastic
+            </a>
+            <a class="carousel-item" href="#three!" style="transform: translateX(149.5px) translateY(100px) translateX(-400px) translateZ(-400px); z-index: -2; opacity: 0.2; visibility: visible;">
+              <img src="assets/images/trains.jpg">Train Scheduler
+            </a>
+            <a class="carousel-item" href="#four!" style="transform: translateX(149.5px) translateY(100px) translateX(-200px) translateZ(-200px); z-index: -1; opacity: 0.6; visibility: visible;">
+              <img src="assets/images/movie.png">Movie Trivia
+            </a>
+            <a class="carousel-item active" href="#five!" style="transform: translateX(149.5px) translateY(100px) translateX(0px) translateX(0px) translateZ(0px); z-index: 0; opacity: 1; visibility: visible;">
+              <img src="assets/images/crystals.png">Crystal Collector
+            </a>
+          </div>
+              
     </section>
     <br>
     <br>
@@ -117,6 +158,8 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="assets/js/app.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>
