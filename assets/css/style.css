@@ -36,3 +36,12 @@ header {
 .ab-div {
     padding-bottom: 25px!important;
 }
+.links:hover {
+    color: white;
+    opacity: .3;
+}
+@media screen and (max-width: 450px) {
+    .bottom {
+        padding-bottom: 10px!important;
+    }
+}
