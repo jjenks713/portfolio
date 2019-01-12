@@ -19,7 +19,7 @@ header {
 }
 .port-pic {
     width: 300px;
-    border: 15px rgba(0, 134, 134, 0.137) solid;
+    border: 15px rgba(0, 134, 134, 0.425) solid;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -44,4 +44,7 @@ header {
     .bottom {
         padding-bottom: 10px!important;
     }
+}
+.btn-floating {
+    background-color: rgba(0, 134, 134, 0.781)!important;
 }
