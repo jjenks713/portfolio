@@ -33,13 +33,6 @@ header {
 .img {
     border-radius: 12%;
 }
-/* @media screen and (max-width: 420px) {
-    .about-contact{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: stretch;
-    }
-}  */
+.ab-div {
+    padding-bottom: 25px!important;
+}
