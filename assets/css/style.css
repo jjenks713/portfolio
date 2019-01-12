@@ -45,6 +45,9 @@ header {
         padding-bottom: 10px!important;
     }
 }
-.btn-floating {
+.b-color {
     background-color: #26a6997a!important;
+}
+.b-color:hover {
+    opacity: .7;
 }
