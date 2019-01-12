@@ -6,13 +6,7 @@ $(document).ready(function () {
   $('#about-2').hide();
 });
 
-$('#about-btn').click(function () {
-  $('#about').toggle();
-});
 
-$('#about-btn-2').click(function () {
-  $('#about-2').toggle();
-});
 
 $('.carousel.carousel-slider').carousel({
   fullWidth: true
@@ -20,12 +14,26 @@ $('.carousel.carousel-slider').carousel({
 
 function myFunction(x) {
   if (x.matches) { // If media query matches
-    document.body.style.backgroundColor = "yellow";
+    $('#about-btn').click(function () {
+      $('#about').toggle();
+      $('#about-btn-2').toggle();
+    });
+    
+    $('#about-btn-2').click(function () {
+      $('#about-2').toggle();
+      $('#about-btn').toggle();
+    });
   } else {
-   document.body.style.backgroundColor = "pink";
+    $('#about-btn').click(function () {
+      $('#about').toggle();
+    });
+    
+    $('#about-btn-2').click(function () {
+      $('#about-2').toggle();
+    });
   }
 }
 
-var x = window.matchMedia("(max-width: 700px)")
+var x = window.matchMedia("(max-width: 450px)")
 myFunction(x) // Call listener function at run time
 x.addListener(myFunction) // Attach listener function on state changes
