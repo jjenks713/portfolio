@@ -51,3 +51,6 @@ header {
 .b-color:hover {
     opacity: .7;
 }
+li {
+    padding-bottom: 5px;
+}
