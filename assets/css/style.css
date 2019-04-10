@@ -1,10 +1,13 @@
 body {
     display: flex;
+    background-image: url("../images/ice_age_@2X.png");
     min-height: 100vh;
     flex-direction: column;
     font-family: Montserrat;
   }
-
+.sec-for {
+    background-image: url("../images/prism.png")
+}
   main {
     flex: 1 0 auto;
   }
@@ -19,7 +22,7 @@ header {
 }
 .port-pic {
     width: 300px;
-    border: 15px #26a6997a solid;
+    border: 15px #ffffff3b solid;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -46,7 +49,7 @@ header {
     }
 }
 .b-color {
-    background-color: #26a6997a!important;
+    background-color: #ffffff6b!important;
 }
 .b-color:hover {
     opacity: .7;
